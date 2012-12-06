@@ -5,7 +5,7 @@
  */
 
 .jstree-default-rtl li, 
-.jstree-default-rtl ins { background-image:asset-data-url("jstree-themes/default-rtl/d.png"); background-repeat:no-repeat; background-color:transparent; }
+.jstree-default-rtl ins { background-image:image-url("jstree-themes/default-rtl/d.png"); background-repeat:no-repeat; background-color:transparent; }
 .jstree-default-rtl li { background-position:-90px 0; background-repeat:repeat-y; }
 .jstree-default-rtl li.jstree-last { background:transparent; }
 .jstree-default-rtl .jstree-open > ins { background-position:-72px 0; }
@@ -38,9 +38,9 @@
 .jstree-default-rtl .jstree-undetermined > a > .jstree-checkbox:hover { background-position:-20px -37px; }
 
 #vakata-dragged.jstree-default-rtl ins { background:transparent !important; }
-#vakata-dragged.jstree-default-rtl .jstree-ok { background:asset-data-url("jstree-themes/default-rtl/d.png") -2px -53px no-repeat !important; }
-#vakata-dragged.jstree-default-rtl .jstree-invalid { background:asset-data-url("jstree-themes/default-rtl/d.png") -18px -53px no-repeat !important; }
-#jstree-marker.jstree-default-rtl { background:asset-data-url("jstree-themes/default-rtl/d.png") -41px -57px no-repeat !important; text-indent:-100px; }
+#vakata-dragged.jstree-default-rtl .jstree-ok { background:image-url("jstree-themes/default-rtl/d.png") -2px -53px no-repeat !important; }
+#vakata-dragged.jstree-default-rtl .jstree-invalid { background:image-url("jstree-themes/default-rtl/d.png") -18px -53px no-repeat !important; }
+#jstree-marker.jstree-default-rtl { background:image-url("jstree-themes/default-rtl/d.png") -41px -57px no-repeat !important; text-indent:-100px; }
 
 .jstree-default-rtl a.jstree-search { color:aqua; }
 .jstree-default-rtl .jstree-locked a { color:silver; cursor:default; }
@@ -61,7 +61,7 @@
 .jstree-default-rtl ins,
 #vakata-dragged.jstree-default-rtl .jstree-invalid, 
 #vakata-dragged.jstree-default-rtl .jstree-ok, 
-#jstree-marker.jstree-default-rtl { _background-image:asset-data-url("jstree-themes/default-rtl/d.gif"); }
+#jstree-marker.jstree-default-rtl { _background-image:image-url("jstree-themes/default-rtl/d.gif"); }
 .jstree-default-rtl .jstree-open ins { _background-position:-72px 0; }
 .jstree-default-rtl .jstree-closed ins { _background-position:-54px 0; }
 .jstree-default-rtl .jstree-leaf ins { _background-position:-36px 0; }
