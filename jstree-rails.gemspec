@@ -7,9 +7,9 @@ Gem::Specification.new do |s|
   s.authors     = 'Tristan McHardie'
   s.email       = 'tristan@panmedia.co.nz'
   s.homepage    = 'http://github.com/tristanm/jstree-rails'
-  s.summary     = 'Use jsTree with Rails 3.1+'
-  s.description = 'This gem provides jsTree for your Rails 3.1+ application.'
+  s.summary     = 'Use jsTree with Rails 4.0+’
+  s.description = 'This gem provides jsTree for your Rails 4.0+ application.'
   s.files       = `git ls-files`.split("\n")
 
-  s.add_dependency 'rails', '>= 4.0’
+  s.add_dependency 'rails', ‘>=4.0.0’
 end
